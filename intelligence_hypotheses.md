@@ -9,3 +9,18 @@ Human-Like Logic: The approach is inspired by how humans use "inner speech" to h
 .
 Potential Limitation
 Difficulty of Learning in Large Action Spaces: Because the "language space" (the thoughts the model can generate) is unlimited, learning to reason and act at the same time is difficult and requires the model to have very strong language priors to start with
+
+
+*****
+
+
+## Hypothesis 1
+
+Current ReAct agents decide actions only after receiving observations.
+
+They do not explicitly predict future world states before acting.
+
+This reactive nature may limit planning efficiency in long-horizon tasks.
+
+Possible Direction:
+Introduce an explicit World Model between the reasoning and action stages to simulate future outcomes before execution.
