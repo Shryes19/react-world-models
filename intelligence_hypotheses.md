@@ -24,3 +24,14 @@ This reactive nature may limit planning efficiency in long-horizon tasks.
 
 Possible Direction:
 Introduce an explicit World Model between the reasoning and action stages to simulate future outcomes before execution.
+
+
+
+## Hypothesis 2
+
+The current ReAct state represents only past interactions and the current observation.
+
+It does not maintain an explicit representation of the future or possible future states.
+
+Possible Direction:
+Extend the agent state with a learned world model capable of simulating future trajectories before selecting an action.
