@@ -1,23 +1,18 @@
-Q1
+Q1 How intelligent is ReAct?
 
-How intelligent is ReAct?
+Q2 Why does ReAct fail?
 
-Q2
+Q3 Can prediction improve planning?
 
-Why does ReAct fail?
+Q4 Can world models reduce hallucination?
 
-Q3
+Q5 Can simulated futures improve decisions?
 
-Can prediction improve planning?
+Q6 How should memory interact with world models?
 
-Q4
 
-Can world models reduce hallucination?
 
-Q5
 
-Can simulated futures improve decisions?
+Q7 Should observations be appended to memory or merged into a learned world model?
 
-Q6
-
-How should memory interact with world models?
+Q8 Should an intelligent agent terminate based on fixed rules, confidence estimates, or expected information gain?
